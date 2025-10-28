@@ -12,7 +12,16 @@
       "Bash(pip install:*)",
       "Bash(timeout 120 python:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(gh auth status:*)",
+      "Bash(winget:*)",
+      "Bash(scoop:*)",
+      "Bash(choco --version:*)",
+      "Bash(choco install:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

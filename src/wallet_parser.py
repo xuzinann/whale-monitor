@@ -71,8 +71,10 @@ class WalletParser:
                         'coin_type': coin_type
                     })
 
-            print(f"[OK] Parsed {len(wallets)} {coin_type} wallet addresses")
-            return wallets
+            # Limit to top 50 to reduce API load (change 50 to 100 for all wallets)
+            wallets_limited = wallets[:50]
+            print(f"[OK] Parsed {len(wallets_limited)} {coin_type} wallet addresses (top 50)")
+            return wallets_limited
 
         except FileNotFoundError:
             print(f"[ERROR] {filename} not found in {self.data_dir}")
