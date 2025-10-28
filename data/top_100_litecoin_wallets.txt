@@ -1,0 +1,117 @@
+TOP 100 RICHEST LITECOIN WALLET HOLDERS
+========================================
+Scraped from: https://bitinfocharts.com/top-100-richest-litecoin-addresses.html
+Date: 2025-10-27
+
+Rank | Wallet Address | Balance (LTC) | % of Total
+-----|----------------|---------------|------------
+1. MQd1fJwqBJvwLuyhr17PhEFx1swiqDbPQS | 2,611,450 LTC | 3.36%
+2. ltc1qr07zu594qf63xm7l7x6pu3a2v39m2z6hh5pp4t | 2,205,010 LTC | 2.83%
+3. MLj1bgnNs8iAmNxhZNnrymQaAZNqnXXV3E | 1,033,082 LTC | 1.33%
+4. MS56eJAupdvN5bYo6ythw784qahCpTzZ5V | 878,218 LTC | 1.13%
+5. MQSs17ECe51kqhkFPQY98wiyPvGuK5iCB6 | 745,000 LTC | 0.9575%
+6. ltc1q29hm7wn047c8vgqeth8d97nn7k5xrtgrek9dzg | 722,796 LTC | 0.9290%
+7. LSiCVDew2SL2vbxyeGRNMqERHF6joStbRp | 718,548 LTC | 0.9235%
+8. LW1LMwNjA6EAJm6BC87EGm6PgHgWcPDgbW | 685,683 LTC | 0.8813%
+9. ltc1qp7cnlxmz8wgc93g0m020ckru2s55t25y3wunf6 | 581,313 LTC | 0.7471%
+10. LiDY79SxUJfjE6fyqyxXxh9kBpfi4sRoKf | 500,000 LTC | 0.6426%
+11. MB6LrCx4qjEFpU9U1WBrgPrntkfMR5GtCA | 477,442 LTC | 0.6136%
+12. LQSSaiE9emVixvf3qgudWNZ4SHnshnrday | 408,430 LTC | 0.5249%
+13. MESruSiB2uC9i7tMU6VMUVom91ohM7Rnbd | 403,167 LTC | 0.5182%
+14. LZEjckteAtWrugbsy9zU8VHEZ4iUiXo9Nm | 401,777 LTC | 0.5164%
+15. ltc1qttkjgeyvwctv4se22gr276vdl5f3wlppzwgd0h | 400,001 LTC | 0.5141%
+16. LWLrgvfz34XLzRcdHYzfMnjrgznQz6ugYC | 398,471 LTC | 0.5121%
+17. LKxNtynH2GxLc2oLxUGL6ryckK8JMdP5BR | 376,738 LTC | 0.4842%
+18. LUM1ZTZRmc425sd1yS41UtxjQNqDqBqrQm | 372,222 LTC | 0.4784%
+19. MU4ZU2ewr2vsvcdiuzzYckJiwEo7ARYK8v | 329,344 LTC | 0.4233%
+20. MArsfeyS7PhHzsqLpAFGC9pFdhuqHgdL2R | 329,264 LTC | 0.4232%
+21. MLdvdwYfuZtbZ32HVfnnA5Se8PsXrBySyE | 328,817 LTC | 0.4226%
+22. ltc1qvw55wc883s7cacf2j96thvwcyv2fjpp2lqj2kz | 309,763 LTC | 0.3981%
+23. LeMWmgVTYrc6AfbxZzY15iF4QaURNFSsDh | 303,010 LTC | 0.3894%
+24. LfoLWkSeSf4NmHgdmXsv1mxFYuckyVhf5a | 301,736 LTC | 0.3878%
+25. LNz6qoXAu5XMvJVhNApjq7uz9wRnnN8jvk | 300,001 LTC | 0.3856%
+26. LM4ch8ZtAowdiGLSnf92MrMVC9dVmve2hr | 300,000 LTC | 0.3856%
+27. LSPqzqC8XcmeDoVJW5bJVtMqQbESHS46tn | 300,000 LTC | 0.3856%
+28. LesrR8ZiV5sRdVA3MBAc7qK9V7HDBpC3ou | 300,000 LTC | 0.3856%
+29. LWCnL7CZpW3rvC7zeeMWPBZCBH4QPVnF1s | 300,000 LTC | 0.3856%
+30. LdoAzcQCmzJAN9K3a89rhiMJw3r6fHcHjb | 300,000 LTC | 0.3856%
+31. Lcxdj5PnnMEhxpPJ5LKbRf4HP4soaZ5TDD | 300,000 LTC | 0.3856%
+32. LTstgd2W1aHrzpzUgceDVyECJuCKdD4ete | 300,000 LTC | 0.3856%
+33. LabqPK21LR4yZVTMFYDqVj2yX6Lig5vc9T | 300,000 LTC | 0.3856%
+34. LagNsYWF6NfTeo9Zg26s61cxLG4Zcefycw | 300,000 LTC | 0.3856%
+35. LYPo65ycrKHmh3feNWyfTW2GJefbs1zB9C | 300,000 LTC | 0.3856%
+36. LYPZ9r4W5zDHzsyH2bCuhNbFJcMNguZ6iN | 300,000 LTC | 0.3856%
+37. LPUSYubqPVb46fGu88uGwR42u8jCBxqwqx | 299,876 LTC | 0.3854%
+38. LY7bZLfNV96rhGfbyspxK5Qg8UDrJStVdt | 298,695 LTC | 0.3839%
+39. LQPU8jVUyNcdHT7AjTD7CYELnfVNDGUQty | 297,806 LTC | 0.3828%
+40. LWqpE1htuSNwqe6xUzq3d6LmJRMJuVgAJ1 | 296,840 LTC | 0.3815%
+41. LKRxMfqSbWvqujDXH2TVyFzifp7RqScK5u | 294,848 LTC | 0.3790%
+42. LX8kaqrYfpAPvzbdGAZo6GrWF9MpSaf6Ba | 292,757 LTC | 0.3763%
+43. LQAoeTGbKEwDFevzRhq5nau5eco4QzqxJc | 286,771 LTC | 0.3686%
+44. ltcmweb1q2cml6cx9s44nnrudcfwjptml89lkghqkkm4zha39qsstl9zdc6hsy589pa | 259,511 LTC | 0.3335%
+45. ltc1qutw9hdxkmgum6uf80flxc06xdh8jhtr8h36yk2 | 250,000 LTC | 0.3213%
+46. ltc1qr6quwn3v2gxpadd0cu040r9385gayk5vdcyl5t | 250,000 LTC | 0.3213%
+47. ltc1qsepxlxmx7m42hegdn4xvlwksv6v0ntd7uwkeez | 250,000 LTC | 0.3213%
+48. ltc1qd6d54mt8xxcg0xg3l0vh6fymdfvd2tv0vnwyrv | 250,000 LTC | 0.3213%
+49. M9kCmABtJ7emvTYyqGk1aW2SK9DQL6W6rg | 247,296 LTC | 0.3178%
+50. LSm75uocx76va8UvrVqyTztkWwXDvjS416 | 239,308 LTC | 0.3076%
+51. LNxsTP9pSJ4Bf8MMdxLCEnwojYXRNEU1ro | 235,869 LTC | 0.3032%
+52. LavBTKHZgHj2c2vPA3mxNsw2GSNMJG6mig | 235,869 LTC | 0.3032%
+53. LR1CR7Apd2dPxhj8uWQ7QLT7KPtU5WYUBo | 235,869 LTC | 0.3032%
+54. LRfAsb3z7yaahHvCmVC1dVvUhoWUoHDJTY | 235,869 LTC | 0.3032%
+55. ltc1q5det08ke2gpet06wczcdfs2v3hgfqllxw28uln8vxxx82qlue6uswceljm | 219,900 LTC | 0.2826%
+56. LP3vzTKhLV1YsfxkjfHm2amnGnKuKsBwvK | 214,652 LTC | 0.2759%
+57. MKngnK5WiLWh88ECYCXpDdJkH4pE7xEnd7 | 211,000 LTC | 0.2712%
+58. LQFZFmkrmxuyL5TCjuVxngM4wRFdM2a9EW | 206,523 LTC | 0.2654%
+59. MQ4wXRL6etqkEPrLm4f1FKu2eXTM7EMgXo | 204,601 LTC | 0.2630%
+60. ltc1qt7qankv5am49n88zr27mdmzp7ara38jfr3vcan | 200,000 LTC | 0.2571%
+61. ltc1qp3mu59t9c9zvym8mgve0ad0rz5xv0eh80cmdag | 200,000 LTC | 0.2571%
+62. ltc1q8kznlgux959fqv2rw0qal5kqw596t6ql3n4uaa | 200,000 LTC | 0.2571%
+63. LanmRpbjyEScty9gstDC7KgjiEBUinPR51 | 188,873 LTC | 0.2428%
+64. MXBgathBnDPqqN5XmGWsppmdv67oo28YUC | 187,934 LTC | 0.2415%
+65. ltc1qsa3p4v03qpl56zz03c82uvmhzd03jff78wk9s6 | 185,242 LTC | 0.2381%
+66. LMre2714JjoJtFjtjVwvstSUPHPtZv9d8e | 182,125 LTC | 0.2341%
+67. MGAcJFtWYRqZNNsPoYjqcBpYdncJc1oBj4 | 180,185 LTC | 0.2316%
+68. LXfahEqgQcM5JAbgbLWqd4rzZhqWhbUSHQ | 176,007 LTC | 0.2262%
+69. ltc1qs52eujwwd888flur8l3uxqasvj8t44j6q6tlrvx6e454r4zq7wuq3ujh2h | 175,016 LTC | 0.2249%
+70. LeL2tHRhthknc3AxXAQ7U1yTuQYLqCu8vf | 175,001 LTC | 0.2249%
+71. LaaYdF7oKGPRgaGsBdRSVg5kzgeAZwJG6q | 173,131 LTC | 0.2225%
+72. ltc1qwk34la043v2l5txwyjygh94f6nw2ffp3jyqjce | 171,949 LTC | 0.2210%
+73. Lhog8GjSvm3bZFgVje5JVLbtiH5U19yqUP | 163,264 LTC | 0.2098%
+74. ltc1q6m70j3yvtwj7n8mk2kw77tur6jn9z6frhdg5ud | 160,862 LTC | 0.2068%
+75. ltc1q2a0laq2jg2gntzhfs43qptajd325kkx7hrq9cs | 160,700 LTC | 0.2065%
+76. MW87w56tHzzBYuHS4tfTQ1aYN7Kz6iuSra | 160,202 LTC | 0.2059%
+77. LeUemA4PyBAgnxKfMWTbrVfnVy3pEQDn73 | 159,050 LTC | 0.2044%
+78. Ldk14ugFPyzq3StDZosKaXQjWdFurg8R1d | 158,977 LTC | 0.2043%
+79. Li9cz5EsCCsRCgWyVEKJSKzGYrrU9JyHC1 | 154,973 LTC | 0.1992%
+80. ltc1qcg4hj0fu2ukvvczf9q8a0ze8zpehvd6020qqz8 | 154,543 LTC | 0.1986%
+81. LNfT7Hauvy6tyD2GPL5PsH28QjxeR8VhTF | 152,374 LTC | 0.1958%
+82. LLqU8rrbK2Txjc4rXBAm3Fq72m9GnHpEnc | 152,235 LTC | 0.1957%
+83. LeERKVzL8xaZmCk7e67n9qAiSejHsYiYpX | 151,402 LTC | 0.1946%
+84. LRMf6MdRoiu75nSUq7TVFugUeNaXwygJYk | 151,075 LTC | 0.1942%
+85. LhWe3ycKphX5N1ZhD4nXeZR5oZfCejDFSy | 151,037 LTC | 0.1941%
+86. LectSLekhkxEQBHofNFHa3pVHndnb4Z9fN | 150,000 LTC | 0.1928%
+87. LPECByb5d3f1LuSoCqLX1fodnUYoYwjCMC | 150,000 LTC | 0.1928%
+88. ltc1qpcnz9msdl027p779jv4f2t8jlecpnjmuc9vtqk | 147,469 LTC | 0.1895%
+89. LiJrgq5bU8wZYC2GRPGPFeursy1VkWQoMv | 146,438 LTC | 0.1882%
+90. ltc1qs9fcy6mmkn2mvvvundhcfq59d4lt23qns9mjqc | 146,352 LTC | 0.1881%
+91. LZkucvV9EF7NZkhJFXrubdtTxq4CPTWTZZ | 145,759 LTC | 0.1873%
+92. Lb4MQdkv3w5paLBzKoJ9ci4uiXSnMQTV2y | 145,412 LTC | 0.1869%
+93. LLvinmYam1tken3KcryvxUnkRb2oFyRwzS | 145,412 LTC | 0.1869%
+94. LYL2dcYgxuvRnumJKF5AG1AehXzKatuF9L | 145,412 LTC | 0.1869%
+95. LbLGde8USzRDpvo15UNbTzXPXaFHKjTkTo | 145,412 LTC | 0.1869%
+96. LV9SGCqFdA2HY6qidQQ2yqTf1zmLQDAWjs | 145,412 LTC | 0.1869%
+97. LbRn3BH6r7bvYwhfJrTE17fKKXwygvsUKf | 145,412 LTC | 0.1869%
+98. LMJzXAQBXBbwJYupwp9BHStxxKgwtntY6A | 145,412 LTC | 0.1869%
+99. LQmJHaWCWGeL4WLhuRg5c3PrD1pb6nW3hm | 142,850 LTC | 0.1836%
+100. ltc1q7tm3qxw59zatfzw4993l6h30sp2jwa7dhem62z8v4tw0ty7vl2rsmf963x | 137,110 LTC | 0.1762%
+
+========================================
+SUMMARY
+========================================
+Total wallets listed: 100
+Top holder balance: 2,611,450 LTC (3.36%)
+Smallest balance in top 100: 137,110 LTC (0.1762%)
+
+Note: The URL mentioned "bitcoin" but this data is for Litecoin (LTC) addresses.
+Data reflects holdings as of the scrape date.

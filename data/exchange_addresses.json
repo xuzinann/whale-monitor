@@ -1,0 +1,138 @@
+{
+  "BTC": [
+    {
+      "address": "34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo",
+      "exchange": "Binance",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6",
+      "exchange": "Binance",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97",
+      "exchange": "Bitfinex",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "3JZq4atUahhuA9rLhXLMhhTo133J9rF97j",
+      "exchange": "Bitfinex",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "bc1qr4dl5wa7kl8yu792dceg9z5knl2gkn220lk7a9",
+      "exchange": "Crypto.com",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "bc1q4j7fcl8zx5yl56j00nkqez9zf3f6ggqchwzzcs5hjxwqhsgxvavq3qfgpr",
+      "exchange": "Coincheck",
+      "wallet_type": "unknown"
+    },
+    {
+      "address": "bc1qa5wkgaew2dkv56kfvj49j0av5nml45x9ek9hz6",
+      "exchange": "FBI-Confiscated",
+      "wallet_type": "seized"
+    }
+  ],
+  "DOGE": [
+    {
+      "address": "DEgDVFa2DoW1533dxeDVdTxQFhMzs1pMke",
+      "exchange": "Robinhood",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DDuXGMFNGpGjaAqyDunSMvceMBruc1wwKF",
+      "exchange": "Robinhood",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DE5opaXjFgDhFBqL6tBDxTAQ56zkX6EToX",
+      "exchange": "Binance",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DGmzv39riELTuigZCUD6sWoHEHPdSbxdUB",
+      "exchange": "Binance",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "D8ZEVbgf4yPs3MK8dMJJ7PpSyBKsbd66TX",
+      "exchange": "Upbit",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DDTtqnuZ5kfRT5qh2c7sNtqrJmV3iXYdGG",
+      "exchange": "Cryptsy",
+      "wallet_type": "unknown"
+    },
+    {
+      "address": "DU8gPC5mh4KxWJARQRxoESFark2jAguBr5",
+      "exchange": "Binance",
+      "wallet_type": "hot"
+    },
+    {
+      "address": "DAAhXpPfziaCcGweJMWE4RSucLcee7NcqL",
+      "exchange": "Gate.io",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DBdiAmrND25pM7DW7awqiL696yx9x9q4dD",
+      "exchange": "Kraken",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "D8WhgsmFUkf4imvsrwYjdhXL45LPz3bS1S",
+      "exchange": "Kraken",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "D8FQQuVXoF2rFyx2jheZAWnGinKqGXAk3K",
+      "exchange": "Kraken",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DQhgaRJp9hW9NkCVH1XUgTgKpNErtL4sfK",
+      "exchange": "Bithumb",
+      "wallet_type": "hot"
+    },
+    {
+      "address": "D94tDRhr4X9Tjgr8MG1Nrd5ARpesPAM7ZB",
+      "exchange": "Bybit",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DKgCD6zjiHwCzqj7DPTgFUfuuxoFgFndym",
+      "exchange": "Crypto.com",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "A5NGypeVY5rnt6LsV8rK8yJZkLmeRXW3zX",
+      "exchange": "Gemini",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "ADNbM5fBujCRBW1vqezNeAWmnsLp19ki3n",
+      "exchange": "OKX",
+      "wallet_type": "hot"
+    },
+    {
+      "address": "DDqhS1QFmVp4438TKnswEook6xccrp4ig4",
+      "exchange": "BinanceUS",
+      "wallet_type": "cold"
+    },
+    {
+      "address": "DGs6xByN2wgwZr1Jc6oV3d6Sq5TjubukMm",
+      "exchange": "CoinSpot",
+      "wallet_type": "hot"
+    }
+  ],
+  "LTC": [
+    {
+      "address": "MQd1fJwqBJvwLuyhr17PhEFx1swiqDbPQS",
+      "exchange": "Unknown",
+      "wallet_type": "unknown"
+    }
+  ]
+}
