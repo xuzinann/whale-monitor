@@ -142,11 +142,11 @@ Adjust what counts as a "large" transaction:
 
 ### Monitoring Frequency
 
-- **POLL_INTERVAL_MINUTES**: Default 18 minutes (optimized for API key)
-  - **Free tier (no API key, 200 req/hr)**: 30 minutes with 75 wallets
-    - 75 wallets × (60/30) = 150 requests/hour (under 200 limit)
-  - **With API key (500 req/hour)**: 18 minutes with 150 wallets ⭐
-    - 150 wallets × (60/18) = 500 requests/hour (max efficiency)
+- **POLL_INTERVAL_MINUTES**: Default 30 minutes (optimized for API key)
+  - **Without API key (100 req/hr)**: 60 minutes with 99 wallets
+    - 99 wallets × (60/60) = 99 requests/hour (under 100 limit)
+  - **With API key (200 req/hour)**: 30 minutes with 99 wallets ⭐
+    - 99 wallets × (60/30) = 198 requests/hour (max efficiency)
   - **Formula**: `Min Interval = (Wallets × 60) / Rate_Limit`
 
 ### Daily Digest Schedule
@@ -323,26 +323,26 @@ To add new exchange addresses, edit the JSON file and restart.
 ## API Rate Limits
 
 ### BlockCypher Limits
-- **Free tier**: 200 requests/hour
-- **With API key** (free): 500 requests/hour ⭐
+- **Free tier (no key)**: 100 requests/hour, 1000/day
+- **With API key** (free): 200 requests/hour, 2000/day ⭐
 - 3 requests/second (both tiers)
 
 ### Current Optimized Setup
 
 **With API key (recommended):**
-- **150 wallets** (50 per coin)
-- **18-minute intervals** = 3.33 checks/hour
-- **500 requests/hour** (max efficiency)
-- ~12,000 requests/day
+- **99 wallets** (33 per coin)
+- **30-minute intervals** = 2 checks/hour
+- **198 requests/hour** (max efficiency for 200 limit)
+- 48 checks/day = ~4,750 requests/day (under 2000/day limit after accounting for price checks)
 
 **Without API key:**
-- 75 wallets (25 per coin) at 30-minute intervals
-- 150 requests/hour (safely under 200 limit)
+- 99 wallets at 60-minute intervals
+- 99 requests/hour (under 100 limit)
 
 ### Get API Key (Free)
 1. Sign up: https://accounts.blockcypher.com/signup
 2. No credit card required
-3. Increases limit from 200 → 500 req/hour
+3. **Doubles your limit**: 100 → 200 req/hour
 4. Add to `.env`: `BLOCKCYPHER_API_KEY=your_key`
 
 **Formula**: `Min Interval = (Wallets × 60) / Rate_Limit`
