@@ -15,14 +15,14 @@ from exchange_db import ExchangeDatabase
 class WhaleMonitor:
     """Monitor whale wallets for new transactions."""
 
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, data_dir: str = "data"):
         print("=== Initializing Whale Monitor ===\n")
 
         # Initialize components
-        self.parser = WalletParser(data_dir="../data")
+        self.parser = WalletParser(data_dir=data_dir)
         self.api_client = BlockchainAPIClient(api_key=api_key)
-        self.database = WhaleDatabase(db_path="../data/whale_monitor.db")
-        self.exchange_db = ExchangeDatabase(data_dir="../data")
+        self.database = WhaleDatabase(db_path=f"{data_dir}/whale_monitor.db")
+        self.exchange_db = ExchangeDatabase(data_dir=data_dir)
 
         # Load wallet addresses
         self.wallets = self.parser.parse_all_wallets()
