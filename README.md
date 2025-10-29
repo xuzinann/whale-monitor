@@ -142,10 +142,12 @@ Adjust what counts as a "large" transaction:
 
 ### Monitoring Frequency
 
-- **POLL_INTERVAL_MINUTES**: Default 10 minutes
-  - Minimum: 5 minutes (to respect API rate limits)
-  - With free BlockCypher tier: 10-15 minutes recommended
-  - With API key: 5-10 minutes possible
+- **POLL_INTERVAL_MINUTES**: Default 23 minutes (optimized for free tier)
+  - **Free tier (no API key)**: 23 minutes minimum
+    - 75 wallets × (60/23) = 195 requests/hour (under 200 limit)
+  - **With API key (500 req/hour)**: 9 minutes possible
+    - 75 wallets × (60/9) = 500 requests/hour (at limit)
+  - **More wallets?** Use formula: `Interval ≥ (Wallets × 60) / Rate_Limit`
 
 ### Daily Digest Schedule
 
@@ -322,17 +324,23 @@ To add new exchange addresses, edit the JSON file and restart.
 
 ### BlockCypher (Free Tier)
 - 3 requests/second
-- 200 requests/hour
+- **200 requests/hour** (critical limit)
 - ~4,800 requests/day
 
-### With 300 Wallets
-- One full check = 300 requests
-- At 10-minute intervals = ~4,320 requests/day
-- Fits within free tier limits
+### Current Optimized Setup
+- **75 wallets** (25 per coin)
+- **23-minute intervals** = 2.6 checks/hour
+- **195 requests/hour** (safely under 200 limit)
+- ~4,680 requests/day
 
-### Upgrade Options
-- BlockCypher API key: 500 req/hour ($5/month)
-- Reduce monitored wallets (top 50 instead of 100)
+### Scaling Options
+
+**Want to monitor more wallets?**
+- Get free BlockCypher API key → 500 req/hour
+- With API key: Can monitor 150 wallets at 18-minute intervals
+- Or: 75 wallets at 9-minute intervals (more frequent)
+
+**Formula**: `Min Interval = (Wallets × 60) / Rate_Limit`
 
 ## Data Privacy & Security
 
