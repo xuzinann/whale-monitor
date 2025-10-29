@@ -100,7 +100,8 @@ class WhaleMonitor:
 
         # Check inputs to see if this wallet is sending
         for inp in tx.get('inputs', []):
-            for addr in inp.get('addresses', []):
+            addresses = inp.get('addresses', []) or []
+            for addr in addresses:
                 if addr == wallet_address:
                     is_outgoing = True
                     # Sum up the amounts
@@ -109,7 +110,8 @@ class WhaleMonitor:
         # If not outgoing, it's incoming - sum outputs to this wallet
         if not is_outgoing:
             for out in tx.get('outputs', []):
-                for addr in out.get('addresses', []):
+                addresses = out.get('addresses', []) or []
+                for addr in addresses:
                     if addr == wallet_address:
                         amount_native += out.get('value', 0) / 1e8
 
@@ -122,10 +124,12 @@ class WhaleMonitor:
         to_addresses = []
 
         for inp in tx.get('inputs', []):
-            from_addresses.extend(inp.get('addresses', []))
+            addresses = inp.get('addresses', []) or []
+            from_addresses.extend(addresses)
 
         for out in tx.get('outputs', []):
-            to_addresses.extend(out.get('addresses', []))
+            addresses = out.get('addresses', []) or []
+            to_addresses.extend(addresses)
 
         # Check if exchange-related
         is_exchange_related = False
