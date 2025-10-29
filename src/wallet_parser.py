@@ -71,9 +71,9 @@ class WalletParser:
                         'coin_type': coin_type
                     })
 
-            # Limit to top 25 to reduce API load (change to 50 or 100 for more wallets)
-            wallets_limited = wallets[:25]
-            print(f"[OK] Parsed {len(wallets_limited)} {coin_type} wallet addresses (top 25)")
+            # Limit to top 50 (optimal for API key: 150 wallets × 18min = 500 req/hr)
+            wallets_limited = wallets[:50]
+            print(f"[OK] Parsed {len(wallets_limited)} {coin_type} wallet addresses (top 50)")
             return wallets_limited
 
         except FileNotFoundError:

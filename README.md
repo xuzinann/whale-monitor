@@ -142,12 +142,12 @@ Adjust what counts as a "large" transaction:
 
 ### Monitoring Frequency
 
-- **POLL_INTERVAL_MINUTES**: Default 23 minutes (optimized for free tier)
-  - **Free tier (no API key)**: 23 minutes minimum
-    - 75 wallets × (60/23) = 195 requests/hour (under 200 limit)
-  - **With API key (500 req/hour)**: 9 minutes possible
-    - 75 wallets × (60/9) = 500 requests/hour (at limit)
-  - **More wallets?** Use formula: `Interval ≥ (Wallets × 60) / Rate_Limit`
+- **POLL_INTERVAL_MINUTES**: Default 18 minutes (optimized for API key)
+  - **Free tier (no API key, 200 req/hr)**: 30 minutes with 75 wallets
+    - 75 wallets × (60/30) = 150 requests/hour (under 200 limit)
+  - **With API key (500 req/hour)**: 18 minutes with 150 wallets ⭐
+    - 150 wallets × (60/18) = 500 requests/hour (max efficiency)
+  - **Formula**: `Min Interval = (Wallets × 60) / Rate_Limit`
 
 ### Daily Digest Schedule
 
@@ -322,23 +322,28 @@ To add new exchange addresses, edit the JSON file and restart.
 
 ## API Rate Limits
 
-### BlockCypher (Free Tier)
-- 3 requests/second
-- **200 requests/hour** (critical limit)
-- ~4,800 requests/day
+### BlockCypher Limits
+- **Free tier**: 200 requests/hour
+- **With API key** (free): 500 requests/hour ⭐
+- 3 requests/second (both tiers)
 
 ### Current Optimized Setup
-- **75 wallets** (25 per coin)
-- **23-minute intervals** = 2.6 checks/hour
-- **195 requests/hour** (safely under 200 limit)
-- ~4,680 requests/day
 
-### Scaling Options
+**With API key (recommended):**
+- **150 wallets** (50 per coin)
+- **18-minute intervals** = 3.33 checks/hour
+- **500 requests/hour** (max efficiency)
+- ~12,000 requests/day
 
-**Want to monitor more wallets?**
-- Get free BlockCypher API key → 500 req/hour
-- With API key: Can monitor 150 wallets at 18-minute intervals
-- Or: 75 wallets at 9-minute intervals (more frequent)
+**Without API key:**
+- 75 wallets (25 per coin) at 30-minute intervals
+- 150 requests/hour (safely under 200 limit)
+
+### Get API Key (Free)
+1. Sign up: https://accounts.blockcypher.com/signup
+2. No credit card required
+3. Increases limit from 200 → 500 req/hour
+4. Add to `.env`: `BLOCKCYPHER_API_KEY=your_key`
 
 **Formula**: `Min Interval = (Wallets × 60) / Rate_Limit`
 
